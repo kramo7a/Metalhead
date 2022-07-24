@@ -1,0 +1,46 @@
+# OS X
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+
+# Bundler
+.bundle
+
+# AppCode
+.idea
+!.idea/codeStyleSettings.xml
+
+# CocoaPods
+Pods/*
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+fastlane/swiftlint.xml
+TradingPlatform.app*
+
+# Logs
+Build-Phases/temp/
+
+# SPM
+**/.build
+
+*__Snapshots__*
